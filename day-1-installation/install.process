@@ -53,6 +53,9 @@ You can follow same procedure in the official  AWS document [Getting started wit
    eksctl create cluster --name aniket \
       --region us-west-1 \
    --node-type t2.small \
+   
+   Update :- 
+   aws eks update-kubeconfig --region us-east-1 --name test
 
 
 5. To delete the EKS clsuter 
